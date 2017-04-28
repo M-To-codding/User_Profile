@@ -3,7 +3,7 @@
 <body>
 
 <h1>Sum form</h1>
-<form method="post" name="authForm" action="">
+<form method="post" name="authForm" action="../form_handler.php">
     <label for="login">Login
         <input type="text" name="login">
     </label>
@@ -20,8 +20,6 @@
         Submit
     </button>
 </form>
-
-
 
 </body>
 </html>
