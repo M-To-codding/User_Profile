@@ -8,7 +8,7 @@
 
 namespace FormMethods;
 
-require_once dirname(__DIR__) . './database.php';
+require_once dirname(__DIR__) . './db_connect/database.php';
 use FormMethods;
 
 class DatabaseTest extends \PHPUnit_Framework_TestCase
