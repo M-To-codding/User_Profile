@@ -15,11 +15,15 @@ class Router
         $this->routes = include($routesPath);
     }
 
+    private function getUri(){
+        if (!empty($_SERVER['REQUEST_URI'])) {
+            return trim($_SERVER['REQUEST_URI'], '/');
+        }
+    }
+
     public function run (){
 
-        if (!empty($_SERVER['REQUEST_URI'])) {
-            $uri = trim($_SERVER['REQUEST_URI'], '/');
-        }
+        $uri = $this->getUri();
         echo $uri;
 
     }
