@@ -16,8 +16,12 @@ class Router
     }
 
     public function run (){
-//        echo 'Class Router, method run()';
-        print_r($this->routes);
+
+        if (!empty($_SERVER['REQUEST_URI'])) {
+            $uri = trim($_SERVER['REQUEST_URI'], '/');
+        }
+        echo $uri;
+
     }
 
 }

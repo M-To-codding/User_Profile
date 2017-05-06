@@ -9,7 +9,7 @@ error_reporting(E_ALL);
 
 //including system files
 define('ROOT', __DIR__);
-require_once (ROOT.'/components/Router.php');
+require_once(ROOT . '/components/Router.php');
 
 //call Router
 $router = new Router();
