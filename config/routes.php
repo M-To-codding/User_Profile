@@ -7,6 +7,8 @@
  */
 
 return array(
+    'blog/([0-9]+)' => 'blog/view',
+
     'blog' => 'blog/index',
-    'list' => 'blog/list',
+
 );
