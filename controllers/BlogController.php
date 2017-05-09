@@ -29,7 +29,7 @@ class BlogController
         return true;
     }
 
-    public function actionView(){
+    public function actionView($category, $id){
         echo '<h3>Heading</h3>
            <p>Lorem ipsum dolor sit amet, 
            consectetur adipisicing elit.<br/> 
@@ -37,6 +37,9 @@ class BlogController
            blanditiis culpa, debitis error <br/>
            inventore ipsum itaque iure, magnam</p>
            <a href="#">< Back</a>';
+        echo '<br>'.$category.
+            '<br>'.$id;
+
         return true;
     }
 }
