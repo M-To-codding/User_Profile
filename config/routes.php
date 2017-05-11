@@ -7,8 +7,7 @@
  */
 
 return array(
-    'blog/([a-z]+)/([0-9]+)' => 'blog/view/$1/$2',
-
-//    'blog' => 'blog/index',
+    'blog/([0-9]+)' => 'blog/view/$1',
+    'blog' => 'blog/index',
 
 );
