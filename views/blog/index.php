@@ -1,5 +1,5 @@
 <?php
-    include_once ROOT . 'views/including/_include_head.php'
+require_once(ROOT . '/views/including/_include_head.php');
 ?>
 <span id="top"></span>
 
@@ -62,5 +62,5 @@
 </script>
 
 <?php
-include_once ROOT . 'views/including/_include_footer.php'
+require_once(ROOT . '/views/including/_include_footer.php');
 ?>
