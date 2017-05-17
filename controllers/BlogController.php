@@ -28,7 +28,7 @@ class BlogController
         return true;
     }
 
-    public function actionView($category, $id){
+    public function actionView($id){
 
         if($id) {
             $recordsItem = Blog::getRecordsItemById($id);
@@ -37,7 +37,7 @@ class BlogController
             print_r($recordsItem);
             echo '</pre>';
 
-            echo 'actionView';
+//            echo 'actionView';
         }
 
         echo '<a href="#">< Back </a>';

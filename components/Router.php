@@ -17,7 +17,7 @@ class Router
 
 //    Returns request string
 
-    private function getUri(){
+    private function getURI(){
         if (!empty($_SERVER['REQUEST_URI'])) {
             return trim($_SERVER['REQUEST_URI'], '/');
         }
@@ -25,7 +25,7 @@ class Router
 
     public function run (){
 
-        $uri = $this->getUri();
+        $uri = $this->getURI();
 
         foreach ($this->routes as $uriPattern=>$path) {
 

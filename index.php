@@ -16,7 +16,6 @@ require_once (ROOT.'/components/Database.php');
 $router = new Router();
 $router->run();
 
-//require_once('db_connect/database.php');
 
 
 ?>
