@@ -18,4 +18,7 @@ $router->run();
 
 
 
+@header("Location:http://phptest/blog/");
+exit;
+
 ?>

@@ -32,13 +32,9 @@ class BlogController
         if($id) {
             $recordsItem = Blog::getRecordsItemById($id);
 
-            echo '<pre>';
-            print_r($recordsItem);
-            echo '</pre>';
+            require_once(ROOT . '/views/blog/records-item.php');
 
         }
-
-        echo '<a href="/blog">< Back </a>';
 
         return true;
     }

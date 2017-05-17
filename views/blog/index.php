@@ -26,7 +26,7 @@ require_once(ROOT . '/views/including/_include_head.php');
                         <?= $recordsItem['content'];?>
                     </p>
                     <p class="reg_date">
-                        <?= $reg_date;?>
+                        <?= @$reg_date;?>
                     </p>
                     <p>
                         <a href="/blog/<?= $recordsItem['id'];?>">Read more</a>
