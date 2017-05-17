@@ -18,12 +18,11 @@ class BlogController
         $recordsList = array();
         $recordsList = Blog::getRecordsList();
 
+        $reg_date = date("d-M-Y H:i:s", $recordsList['reg_date']);
 
-        echo '<pre>';
         print_r($recordsList);
-        echo '</pre>';
 
-        echo '<a href="#">Read more ></a>';
+        require_once(ROOT . '/views/blog/index.php');
 
         return true;
     }
@@ -40,7 +39,7 @@ class BlogController
 //            echo 'actionView';
         }
 
-        echo '<a href="#">< Back </a>';
+        echo '<a href="/blog">< Back </a>';
 
         return true;
     }

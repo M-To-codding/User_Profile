@@ -18,13 +18,14 @@ class Blog
 
         if ($id) {
             $db = Database::getConnection();
-            $result = $db->query('SELECT * FROM `blog_records` WHERE `id` ='.$id);
-//            $result->setFetchMode(PDO::FETCH_ASSOC);
+            $result = $db->query('SELECT * FROM `blog_records` WHERE `id` ='.$id)
+            or die(mysqli_error($link));
+            $result->setFetchMode(PDO::FETCH_ASSOC);
 
-//            $recordsItem = $result->fetch();
+            $recordsItem = $result->fetch();
 
-//            return $recordsItem;
-            return $result;
+            return $recordsItem;
+//            return $result;
         }
     }
 
