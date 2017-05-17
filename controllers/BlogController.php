@@ -36,7 +36,6 @@ class BlogController
             print_r($recordsItem);
             echo '</pre>';
 
-//            echo 'actionView';
         }
 
         echo '<a href="/blog">< Back </a>';
