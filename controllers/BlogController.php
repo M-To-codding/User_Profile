@@ -18,7 +18,7 @@ class BlogController
         $recordsList = array();
         $recordsList = Blog::getRecordsList();
 
-        $reg_date = date("d-M-Y H:i:s", $recordsList['reg_date']);
+//        $reg_date = date("d-M-Y H:i:s", $recordsList['reg_date']);
 
         print_r($recordsList);
 

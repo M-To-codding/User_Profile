@@ -43,6 +43,8 @@ class Blog
             $recordsList[$i] ['content'] = $row['content'];
             $recordsList[$i] ['reg_date'] = $row['reg_date'];
             $i++;
+//            $recordsList[3]= $row['reg_date'];
+//            echo
         }
 
         return $recordsList;

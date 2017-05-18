@@ -22,7 +22,7 @@ require_once(ROOT . '/views/including/_include_head.php');
                         <?= $recordsItem['content'];?>
                     </p>
                     <p class="reg_date">
-                        <?= @$reg_date;?>
+                        <?= date("d-M-Y H:i:s",$recordsItem['reg_date']);?>
                     </p>
                 </div>
 
