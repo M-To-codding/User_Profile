@@ -1,27 +1,27 @@
 <?php
-require_once(ROOT . '/views/including/_include_head.php');
+require_once(ROOT . '/views/including/_include_header.php');
 ?>
 
     <main class="main-page">
 
         <section class="s-blog container-wrapper">
 
-            <div class="heading">
+            <div class="s-blog-heading">
                 <a href="#">
-                    <span class="brown">Blog</span>
+                    <span class="heading-color">Blog</span>
                 </a>
             </div>
 
             <div class="blog-block">
 
                 <div class="blog-text white-text">
-                    <h3>
+                    <h3 class="records-title-color">
                         <?= $recordsItem['name'];?>
                     </h3>
-                    <p>
+                    <p class="content-color">
                         <?= $recordsItem['content'];?>
                     </p>
-                    <p class="reg_date">
+                    <p class="reg-date-color">
                         <?= date("d-M-Y H:i:s",$recordsItem['reg_date']);?>
                     </p>
                 </div>

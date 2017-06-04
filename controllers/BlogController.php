@@ -20,7 +20,7 @@ class BlogController
 
 //        $reg_date = date("d-M-Y H:i:s", $recordsList['reg_date']);
 
-        print_r($recordsList);
+//        print_r($recordsList);
 
         require_once(ROOT . '/views/blog/index.php');
 

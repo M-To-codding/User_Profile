@@ -7,14 +7,22 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
     <!-- bxSlider CSS file -->
-    <link href="styles/jquery.bxslider.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="../../template/css/style.css">
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- bxSlider Javascript file -->
-    <script src="javascript/jquery.bxslider.min.js"></script>
+    <script src="../../template/js/forms.js"></script>
     <title></title>
 </head>
 <body>
+
+<header class="simple-header">
+    <a href="#" class="simple-header-button-main">
+        Main page
+    </a>
+    <a href="#" class="simple-header-button-add" role="button" onclick="openRecordsForm()">
+        New record
+    </a>
+</header>
