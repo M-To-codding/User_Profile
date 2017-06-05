@@ -28,20 +28,26 @@ body {
 
 .simple-header {
     width: 100%;
-    background-color: #d2d9e3;
-    border: 1px solid lightslategray;
-    border-left: none;
-    border-right: none;
+    background-color: #ccd5de;
     padding: 0;
+    margin: auto;
+}
+
+.simple-header__middle-block {
+    display: block;
+    width: 89%;
+    margin: auto;
 }
 
 .simple-header-button-main, .simple-header-button-add {
-    background-color: lightslategray;
+    /* background-color: lightslategray; */
     height: 100%;
-    width: 20%;
+    width: 19.5%;
+    min-width: 190px;
     display: inline-block;
     padding: 10px 0;
     margin: 0;
+    border-radius: 50px;
     text-align: center;
     color: white;
     font-size: 15pt;
@@ -57,6 +63,12 @@ body {
 }
 
 /*-------------------/header-----------------*/
+
+.heading-bg {
+    background-color: #ccd5de;
+    height:80px;
+    margin-bottom: -66px;
+}
 
 /*--------------s-blog----------------------*/
 
@@ -77,6 +89,11 @@ body {
 
 .s-blog>div.wrapper {
     margin-top: -70px;
+}
+
+.content-height {
+    max-height: 78px;
+    overflow: hidden;
 }
 
 .heading-color {
@@ -100,7 +117,6 @@ body {
 }
 
 .s-blog-heading {
-    margin: 50px 0;
     font-size: 35px;
     text-align: center;
 }

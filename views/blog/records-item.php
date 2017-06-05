@@ -3,7 +3,7 @@ require_once(ROOT . '/views/including/_include_header.php');
 ?>
 
     <main class="main-page">
-
+        <div class="heading-bg"></div>
         <section class="s-blog container-wrapper">
 
             <div class="s-blog-heading">

@@ -5,6 +5,7 @@ require_once(ROOT . '/views/including/_include_header.php');
 
     <main class="main-page">
 
+        <div class="heading-bg"></div>
         <section class="s-blog container-wrapper">
 
             <div class="s-blog-heading">
@@ -22,7 +23,7 @@ require_once(ROOT . '/views/including/_include_header.php');
                                 <?= $recordsItem['name'];?>
                             </a>
                         </h3>
-                        <p class="content-color">
+                        <p class="content-color content-height">
                             <?= $recordsItem['content'];?>
                         </p>
                         <p class="reg-date-color">
@@ -32,6 +33,7 @@ require_once(ROOT . '/views/including/_include_header.php');
                             <a href="/blog/<?= $recordsItem['id'];?>" class="more-button-color">Read more</a>
                         </p>
                     </div>
+                    <hr>
                 <?php endforeach;?>
 
 

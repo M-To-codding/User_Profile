@@ -19,10 +19,21 @@
 <body>
 
 <header class="simple-header">
-    <a href="#" class="simple-header-button-main">
-        Main page
-    </a>
-    <a href="#" class="simple-header-button-add" role="button" onclick="openRecordsForm()">
-        New record
-    </a>
+    <div class="simple-header__middle-block">
+        <a href="#" class="simple-header-button-main">
+            Main page
+        </a>
+        <a href="#" class="simple-header-button-add" role="button" onclick="openRecordsForm()">
+            New record
+        </a>
+        <a href="#" class="simple-header-button-main">
+            ---New button1---
+        </a>
+        <a href="#" class="simple-header-button-add" role="button" onclick="openRecordsForm()">
+            ---New button2---
+        </a>
+        <a href="#" class="simple-header-button-add" role="button" onclick="openRecordsForm()">
+            ---New button3---
+        </a>
+    </div>
 </header>
