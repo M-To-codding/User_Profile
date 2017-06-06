@@ -23,16 +23,17 @@
         <a href="#" class="simple-header-button-main">
             Main page
         </a>
-        <a href="#" class="simple-header-button-add" role="button" onclick="openRecordsForm()">
+        <a href="#" class="simple-header-button-add" role="button"
+           onclick="openRecordsForm()">
             New record
         </a>
         <a href="#" class="simple-header-button-main">
             ---New button1---
         </a>
-        <a href="#" class="simple-header-button-add" role="button" onclick="openRecordsForm()">
+        <a href="#" class="simple-header-button-add" role="button">
             ---New button2---
         </a>
-        <a href="#" class="simple-header-button-add" role="button" onclick="openRecordsForm()">
+        <a href="#" class="simple-header-button-add" role="button">
             ---New button3---
         </a>
     </div>
