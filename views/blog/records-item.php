@@ -2,7 +2,7 @@
 require_once(ROOT . '/views/including/_include_header.php');
 ?>
 
-    <main class="main-page">
+    <main class="main-page" id="hide-block">
         <div class="heading-bg"></div>
         <section class="s-blog container-wrapper">
 

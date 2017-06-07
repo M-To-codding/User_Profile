@@ -163,3 +163,11 @@ body {
     padding: 0 250px;
 }
 /*--------------/s-blog----------------------*/
+
+
+.textarea-props {
+    background-color: #e8e9ea;
+    height: auto;
+    overflow: hidden;
+    resize: none;
+}

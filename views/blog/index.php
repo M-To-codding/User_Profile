@@ -43,19 +43,6 @@ require_once(ROOT . '/views/including/_include_header.php');
     </main>
 
 
-<?php
-if (isset($_POST['addRecordsButton'])) {
-    $title="Create new record";
-    include_once (ROOT . '/views/blog/addingRecordsPage.php');
-    echo (
-    "<script>
-
-document.getElementById('hide-block').style.display='none';
-</script>"
-    );
-}
-?>
-
 
     <script>
         $(document).ready(function () {
