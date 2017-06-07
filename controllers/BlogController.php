@@ -38,4 +38,8 @@ class BlogController
 
         return true;
     }
+
+    public function actionAddingRecordsPage(){
+        require_once(ROOT . '/views/blog/addingRecordsPage.php');
+    }
 }
